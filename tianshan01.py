@@ -120,3 +120,6 @@ np.random.random((2,3))
 #-1~1之间
 np.random.random((2,3))*2-1
 
+from numpy import pi
+array=np.linspace(0,2*pi,100)
+print(array)
